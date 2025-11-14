@@ -1,0 +1,38 @@
+body {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.name {
+    margin-bottom: 15px;
+}
+input {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.error-message {
+    display: none;
+    color: crimson;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+input:valid {
+    border-color: rgb(31, 148, 77);
+    background-color: rgb(149, 225, 149);
+}
+
+
+input:invalid {
+    border-color: crimson;
+    background-color: rgb(212, 126, 143);
+}
+
+input:invalid+.error-message {
+    display: block;
+}
+
