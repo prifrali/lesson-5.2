@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(185, 189, 157);
+}
+
+header {
+    background-color: rgb(230, 178, 200);
+    height: 80px;
+}
+
+section {
+    border-color:rgb(142, 28, 123);
+    border-radius: 15px;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+video {
+    border-radius: 15px;
+}
+
+a:link {
+    color: white;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+audio {
+    margin: 15px 0px 0px 150px;
+}
+
+h2 {
+    text-align: justify;
+}
